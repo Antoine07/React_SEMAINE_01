@@ -2,26 +2,18 @@
 
 Vous allez faire une petite calculatrice en utilisant **useReducer**.
 
-Oragnisez l'application comme suit :
+Utilisez les dépendances suivantes supplémentaires :
+
+1. On choix si vous vous sentez découvrir la CRA vous l'utilisez dans ce cas regardez le dossier Support_cra ou utilisez un fichier simple comme vu en cours.
+
+Oragnisez l'application comme suit si vous utilisez la CRA
 
 ```text
-
-Styles/
-    Bouton.js   <-- touche de votre calculatrice
-    Global.js   <-- Styles globaux de votre application, voir dans la partie annexe comment les mettre en place.
 components/
     Calculator.js <-- Dans ce composant utilisez useReducer
 
 App.js
 ```
-
-Utilisez cette fois les dépendances suivantes :
-
-1. La CRA (voir la documentation CRA readme.md dans le dossier Supports_cra)
-
-2. Styled Components (voir la documentation dans le dossier Supports_Styled_Components)
-
-3. Dans l'offre des Hooks proposés par React vous utiliserez useReducer. Faite le code de cette partie dans le fichier Calculator.js
 
 Créez un champ de saisi fictif et 10 boutons de 0 à 9 pour afficher dans la partie "saisie" le nombre tapé. Créez les trois boutons suivants :
 
