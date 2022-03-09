@@ -37,13 +37,8 @@ Les Hooks permettent d'introduire la programmation fonctionnelle.
 
 En suivant ces règles, vous garantissez que les Hooks sont appelés dans le même ordre à chaque affichage du composant.
 
-Il existe un plugin qui vous permettra de respecter ces règles lors du développement de votre application :
+Il existe un plugin qui vous permettra de respecter ces règles lors du développement dans le CRA que nous utiliserons plus loin dans le cours.
 
-```bash
-npm install eslint-plugin-react-hooks --save-dev
-```
-
-Théoriquement dans create-react-app ces règles sont bien vérifiées.
 
 ## La gestion du state avec des Hooks
 
